@@ -85,6 +85,12 @@ You can simply add the path and classname of your agent in `agents_to_use.txt`. 
 If multiple agents are defined, multiple agents will be spawned randomly at the beginning. The more suited agents should eventually out-compete the others and be the only ones remaining, therefore it can be used to test different reinforcement learning algorithms against each other.
 
 
+Authors
+-------
+
+* **Jesse Read** - *Environment*
+* **Paul Vardon** - *Agents* - [Vardoom](https://github.com/Vardoom)
+
 Related Projects
 ----------------
 
@@ -97,5 +103,5 @@ Some related projects with some nice demos on YouTube:
 Notes on Graphics
 -----------------
 
-* Terrain obtained from from [Open Game Art](https://opengameart.org/users/chabull)
+* Terrain obtained from [Open Game Art](https://opengameart.org/users/chabull)
 * Sprites (bugs) from [Open Clip Art](https://openclipart.org/tags/ladybug)

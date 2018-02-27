@@ -1,2 +1,2 @@
 alife.rl.evolution:Evolver
-alite.rl.reinforce:Reinforce
+alife.rl.reinforce:Reinforce

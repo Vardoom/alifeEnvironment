@@ -89,6 +89,9 @@ class Reinforce(Agent):
             #   TODO calculate the gradient
             #   TODO ascend the gradient by alpha
             # =======================================
+            for it in range(T):
+                d = sum(self.episode[it:, -1])
+                self.w += self.alpha * sigmoid(x.dot(self.w)) * exp(-x.dot(self.w)) * d * x
             self.t = 0
 
         # Sigmoid network simple linear reflex,
